@@ -1,4 +1,4 @@
-package com.zll.riskcontrol.domin;
+package com.zll.riskcontrol.domain;
 
 public class Domin {
 	private Long id;
