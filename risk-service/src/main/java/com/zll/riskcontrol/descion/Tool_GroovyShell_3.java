@@ -1,4 +1,4 @@
-package groovy;
+package com.zll.riskcontrol.descion;
 
 
 
@@ -21,8 +21,6 @@ public class Tool_GroovyShell_3 {
 		System.out.println(result2);
 		Object result3 = engine.run("GroovyShell_3_3.groovy", binding);
 		System.out.println(result3);
-		Object result4 = engine.run("GroovyShell_3_4.groovy", binding);
-		System.out.println(result4);
 	}
 	
 	

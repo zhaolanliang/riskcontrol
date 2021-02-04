@@ -27,18 +27,44 @@
 				<artifactId>groovy-all</artifactId>
 				<version>2.4.8</version>
 		</dependency>
-
+        <dependency>
+				<groupId>com.paic</groupId>
+				<artifactId>risk-service</artifactId>
+				<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!-- 链接MySQL -->
+		<dependency>
+		    <groupId>org.mybatis</groupId>
+		    <artifactId>mybatis</artifactId>
+		    <version>3.5.0</version>
+		</dependency>
     </dependencies>
-
+    
     <build>
+    	<finalName>risk-api</finalName>
+    	<resources>
+    		<resource>
+    			<filtering>true</filtering>
+    			<directory>src/main/resources</directory>
+    		</resource>
+    	</resources>
         <plugins>
-        
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            
         </plugins>
     </build>
-    
+    <profiles>
+    	<profile>	<!-- 开发环境 -->
+	    	<id>dev</id>
+	    	<properties>
+	    		<env>-dev</env>
+	    		<activeProfile>dev</activeProfile>
+	    	</properties>
+	    	<activation>
+	    		<activeByDefault>true</activeByDefault>
+	    	</activation>
+    	</profile>
+    </profiles>
 </project>
