@@ -17,6 +17,6 @@
 
     <!--查询所有的用户-->
     <select id="listAllUser" resultMap="user">
-        select * from t_user 
+        select * from t_user
     </select>
 </mapper>
