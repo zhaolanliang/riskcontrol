@@ -13,6 +13,6 @@
     <modules>
         <module>ruban-api</module>
 	    <module>ruban-service</module>
-        <module>ruban-base</module>
+	    <module>ruban-base</module>
     </modules>
 </project>
