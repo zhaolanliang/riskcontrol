@@ -1,4 +1,4 @@
-package com.zll.riskcontrol;
+package com.ruban.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.zll.riskcontrol.user;
+package com.ruban.user;
 
 import java.util.ArrayList;
 import java.util.List;
