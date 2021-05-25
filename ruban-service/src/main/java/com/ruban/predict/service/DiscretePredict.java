@@ -1,4 +1,4 @@
-package com.ruban.discrete.predict;
+package com.ruban.predict.service;
 
 import org.springframework.stereotype.Service;
 
