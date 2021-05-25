@@ -1,6 +1,8 @@
-package com.zll.riskcontrol.domain;
+package com.ruban.user.domain;
 
-public class User extends Domin{
+import com.ruban.domain.Domain;
+
+public class User extends Domain{
 	private int userId;
 	private String phone;
 	private String realName;

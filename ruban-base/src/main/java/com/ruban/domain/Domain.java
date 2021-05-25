@@ -1,6 +1,6 @@
-package com.zll.riskcontrol.domain;
+package com.ruban.domain;
 
-public class Domin {
+public class Domain {
 	private Long id;
 	private int delFlag;
 	private String createTime;

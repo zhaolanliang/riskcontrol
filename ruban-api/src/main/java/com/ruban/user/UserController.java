@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zll.riskcontrol.domain.User;
-import com.zll.riskcontrol.usermapper.UserMapper;
+import com.ruban.user.domain.User;
+import com.ruban.usermapper.UserMapper;
 
 @RestController
 public class UserController {

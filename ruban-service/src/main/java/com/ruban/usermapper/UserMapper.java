@@ -1,10 +1,10 @@
-package com.zll.riskcontrol.usermapper;
+package com.ruban.usermapper;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.zll.riskcontrol.domain.User;
+import com.ruban.user.domain.User;
 
 @Mapper
 public interface UserMapper {
